@@ -16,3 +16,11 @@ WriteLine("Введите элементы массива:");
 for (int i = 0; i < size; i++) {
 array[i] = ReadLine();
 }
+String[] newArray = new String[size];
+int index = 0;
+for (int i = 0; i < size; i++) {
+if (array[i].Length <= 3) {
+newArray[index] = array[i];
+index++;
+}
+}
