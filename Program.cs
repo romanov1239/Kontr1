@@ -5,3 +5,14 @@
   выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, 
   лучше обойтись исключительно массивами.
   */
+
+using System;
+using static System.Console;// Чтобы не писать Console - это слово в командах 
+
+WriteLine("Введите размер массива: ");
+int size = int.Parse(ReadLine());
+String[] array = new String[size];
+WriteLine("Введите элементы массива:");
+for (int i = 0; i < size; i++) {
+array[i] = ReadLine();
+}
