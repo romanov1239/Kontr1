@@ -24,3 +24,7 @@ newArray[index] = array[i];
 index++;
 }
 }
+WriteLine("Новый массив из строк, длина которых меньше, либо равна 3 символам:");
+for (int i = 0; i < index; i++) {
+Write($"{newArray[i]} ");
+}
